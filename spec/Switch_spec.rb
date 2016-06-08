@@ -1,16 +1,16 @@
-require 'switch'
+require "switch"
 
 describe Switch do
 
-	describe "initial testing" do
+	describe "this test returns the text that the user put" do
 	
-		context "just a simple true test" do
+		context "puts in text" do
 		
-			it "should return true" do
+			it "should return the text" do
 			
 			sw = Switch.new
-			result = sw.test()
-			expect(result).to eql(true) 
+			result = sw.ask_Sentence("Kelauni")
+			expect(result).to eql("Kelauni") 
 		
 			
 	

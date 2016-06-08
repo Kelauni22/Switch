@@ -1,20 +1,24 @@
 
 class Switch
-=begin
-attr_attribute :text
-attr_attribute :switch
-attr_attribute :switched_words
 
-	def initialize(text, switch)
-		@text = text
-		@switch = switch
-		@switched_words = switched_words
+attr_accessor :text
+attr_accessor :switch
+attr_accessor :switched_words
+
+
+	def initialize()
+		@text = ""
+		@switch = ""
+		@switched_words = []
 	end
-	
+
 	def ask_Sentence(text)
+		 
+		@text = text
 		return @text
 	end
-
+	
+=begin
 	def ask_Words
 		puts "Words to switch"
 		@switch = gets.chomp
@@ -29,20 +33,9 @@ attr_attribute :switched_words
 		end
 		puts @text
 	end
-=end
+
 	
-	def test
-		return true
-	end
+=end
 end
 
 #Switcher = Switch.new
-
-
-
-
-
-
-
-
-# ask_Sentence

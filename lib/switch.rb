@@ -1,10 +1,10 @@
 
 
 class Switch
-=begin
-attr_accessor :text
-attr_accessor :switch
-attr_accessor :switched_words
+
+attr_attribute :text
+attr_attribute :switch
+attr_attribute :switched_words
 
 	def initialize(text, switch)
 		@text = text
@@ -30,15 +30,13 @@ attr_accessor :switched_words
 		end
 		puts @text
 	end
-=end
+	
 	def test
-		cookie = true
-		return cookie
+		return true
 	end
 end
 
-#Switcher = Switch.new
-
+Switcher = Switch.new
 
 
 

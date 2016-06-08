@@ -1,4 +1,4 @@
-require 'Switch'
+require 'switch'
 
 describe Switch do
 
@@ -10,7 +10,7 @@ describe Switch do
 			
 			sw = Switch.new
 			result = sw.test()
-			expect(result).to eql(true)
+			expect(result).to eql(true) 
 		
 			
 	

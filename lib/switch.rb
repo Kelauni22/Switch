@@ -1,7 +1,6 @@
 
-
 class Switch
-
+=begin
 attr_attribute :text
 attr_attribute :switch
 attr_attribute :switched_words
@@ -30,13 +29,14 @@ attr_attribute :switched_words
 		end
 		puts @text
 	end
+=end
 	
 	def test
 		return true
 	end
 end
 
-Switcher = Switch.new
+#Switcher = Switch.new
 
 
 
@@ -45,4 +45,4 @@ Switcher = Switch.new
 
 
 
-ask_Sentence
+# ask_Sentence

@@ -1,15 +1,14 @@
-require 'switch'
+require './lib/switch.rb'
 
-FinalSwitch = Switch.new 
+ProgramSwitch = Switch.new 
 	
 	puts "Type a sentence..."
 		text = gets.chomp
-		ask_Sentence(text)
+		ProgramSwitch.ask_Sentence(text)
 		
 	puts "Words to switch"
 		switch = gets.chomp
-		ask_Words(switch)
+		ProgramSwitch.ask_Words(switch)
 		
-	def Switching_words(switched_words)
+	ProgramSwitch.Switching_words
 		
-end

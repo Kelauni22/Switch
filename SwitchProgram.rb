@@ -10,4 +10,6 @@ FinalSwitch = Switch.new
 		switch = gets.chomp
 		ask_Words(switch)
 		
+	def Switching_words(switched_words)
+		
 end

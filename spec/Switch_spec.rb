@@ -30,4 +30,18 @@ describe Switch do
 			end
 		end
 	end
-end
+	
+	describe "this test replaces ask_Words to 'switch' do"
+	
+		context "ask_Words array is split and is g.subbed" do
+		
+			it "should return the original text with words switched" do
+			
+			sw = Switch.new
+			sw.ask_Sentence("I love Charmene Cook")
+			sw.ask_Words("Charmene Cook")
+			result = sw.Switching_words()
+			expect(result).to eql("I love switch switch")
+			end
+		end
+	end

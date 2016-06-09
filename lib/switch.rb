@@ -24,16 +24,17 @@ attr_accessor :switched_words
 	end
 
 	
-	def Switching_words 
-	
+	def Switching_words
+		
 		@switched_words.each do |x|
 			@text.gsub!(x, "switch")
 		end
 		puts @text
+		return @text
 	end
 
 	
-=end
+
 end
 
 

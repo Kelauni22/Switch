@@ -6,4 +6,8 @@ FinalSwitch = Switch.new
 		text = gets.chomp
 		ask_Sentence(text)
 		
+	puts "Words to switch"
+		switch = gets.chomp
+		ask_Words(switch)
+		
 end
